@@ -1,4 +1,5 @@
 import EmptyStar from "../icons/EmptyStar";
+import Garnes from "../icons/Garnes";
 import Puls from "../icons/Puls";
 import Redstar from "../icons/Redstar";
 import Redyarmstar from "../icons/Redyarmstar";
@@ -10,8 +11,8 @@ import Strelkaright from "./../icons/Strelkaright";
 function Movies() {
   return (
     <main className=" container mx-auto">
-      <div className="flex items-center justify-between">
-        <div>
+      <div className="flex items-center mt-11 justify-between">
+        <div className="mt-1">
           <div className="bg-gray-800 flex p-12 gap-3 items-flex-start flex-col self-stretch rounded-xl border border-solid mb-8">
             <h1 className="text-lg text-gray-500">Description</h1>
 
@@ -103,14 +104,14 @@ function Movies() {
         {/*---------------------------     Yon Taraf Page   ------------------------------------ */}
 
         {/*  ---------- OBshe katta div -------------- */}
-        <div className="pages-div - gap-4 h-[837px] bg-gray-800">
+        <div className="pages-div - gap-4 m-5 h-[950px ] rounded-md bg-gray-800  mb-[100px]  ">
           {/*  ----------  releasedyear div -------------- */}
 
-          <div className="Releasedyear- p-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center ">
+          <div className="Releasedyear-  p-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center ">
             <div className="Released-icon   w-6 h-6 ">
               <Releasedyear />
               {/* 2022 - divniki */}
-              <div className="2022-niki text-xl text-white font-semibold ">
+              <div className="2022-niki text-xl text-white font-semibold py-3">
                 <h1>2022</h1>
               </div>
             </div>
@@ -122,7 +123,7 @@ function Movies() {
           </div>
           {/* ----------------- LANGEAGE DIV ------------------------- */}
 
-          <div className="Language-div  p-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center   ">
+          <div className="Language-div  py-3 px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center   ">
             <div className="language-icon ">
               <Translateicon />
             </div>
@@ -133,7 +134,7 @@ function Movies() {
 
           {/* Tillar buttondagi */}
 
-          <div className="flex text-white text-lg font-medium items-center gap-3 sm:rounded-3xl  p-12  items-flex-start justify-start justify-self-stretch flex-wrap  ">
+          <div className="flex text-white text-lg font-medium items-center gap-3 sm:rounded-3xl py-3 p-12  items-flex-start justify-start justify-self-stretch flex-wrap w-[500px] ">
             <div className="english flex gap-3 rounded-lg border-solid bg-black  px-4 py-2">
               {" "}
               <h1>English</h1>
@@ -154,7 +155,7 @@ function Movies() {
 
           {/*    --------------------   RATINGS STAR PAGE ----------------- */}
 
-          <div className="Ratings gap-13 p-12  ">
+          <div className="Ratings gap-13 px-12 py-3  ">
             <div className="star  flex gap-1 items-center ext-lg font-medium sm:rounded-3xl  items-flex-start justify-start justify-self-stretch flex-wrap ">
               <EmptyStar />
               <h1 className=" text-gray-500">Ratings</h1>
@@ -163,7 +164,7 @@ function Movies() {
 
           {/*------------------------------ -IMDb STARS BUTTON PAGE--------- ----------------------------*/}
 
-          <div className="two-button - flex items-center p-12 gap-5">
+          <div className="two-button - flex items-center py-3 px-12 gap-5">
 
             <div className="first-button -  flex flex-col gap-1 items-center p-4 flex-1 bg-black rounded-lg border-solid" >
               <h1 className=" text-white mr-[80px] text-xl font-semibold leading-4">IMDb</h1>
@@ -186,26 +187,70 @@ function Movies() {
                 <Redstar />
                 <Redstar />
                 <Redyarmstar />
-                <p className="text-white">4</p>
+                <p className="text-white ">4</p>
+              </div>
+
+            </div>
+          </div>
+          {/*----------------------- END BUTTON --------------------------------- */}
+
+
+          {/*----------------------- START GARNES --------------------------------- */}
+
+          <div className="Garnes-bilan-buttonlarniki">
+            <div className="Language-div py-3  px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center   ">
+              <div className="language-icon ">
+                <Garnes />
+              </div>
+              <div className="avialabl-Language text-lg font-medium text-gray-500">
+                <h1>Garnes</h1>
+              </div>
+            </div>
+
+
+            <div className="flex text-white text-lg font-medium items-center gap-3 sm:rounded-3xl py-3 px-12  items-flex-start justify-start justify-self-stretch flex-wrap  ">
+              <div className="english flex gap-3 rounded-lg border-solid bg-black  px-4 py-2">
+                {" "}
+                <h1>English</h1>
+              </div>
+              <div className="Hindi flex gap-3 rounded-lg border-solid bg-black  px-4 py-2">
+                <h1>Hindi</h1>
               </div>
 
             </div>
 
+          </div>
 
+          {/*------------------- DIRECTOR WITH MUSIC -------------------------------*/}
+
+          <div className="obshekottadiv py-3 px-12  ">
+
+            <div className="Director-Apiabout ">
+              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3  px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
+                <h1>Director</h1>
+              </div>
+              <div className="Rishabshetty border p-4 g-3 items-center self-stretch rounded-lg border-solid bg-black ">
+                <h1 className="avialabl-Language text-lg font-medium text-white Language-div py-3  px-12 sm:rounded-md gap-1 -  flex " >  Rishab Shetty</h1>
+                <p className="px-12"  >From India</p>
+
+              </div>
+            </div>
+
+            {/* MUSIC PAGE */}
+
+            <div className="Director-Apiabout ">
+              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3  px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
+                <h1>Music</h1>
+              </div>
+              <div className="Rishabshetty border p-4 g-3 items-center self-stretch rounded-lg border-solid bg-black ">
+                <h1 className="avialabl-Language text-lg font-medium text-white Language-div py-3  px-12 sm:rounded-md gap-1 -  flex " >  B. Ajaneesh Loknath</h1>
+                <p className="px-12"  >From India</p>
+
+              </div>
+            </div>
 
 
           </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -234,7 +279,7 @@ function Movies() {
 
         </div>
       </div>
-    </main>
+    </main >
   );
 }
 
