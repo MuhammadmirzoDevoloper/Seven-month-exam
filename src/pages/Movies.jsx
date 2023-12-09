@@ -226,12 +226,12 @@ function Movies() {
           <div className="obshekottadiv py-3 px-12  ">
 
             <div className="Director-Apiabout ">
-              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3  px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
+              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3  sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
                 <h1>Director</h1>
               </div>
               <div className="Rishabshetty border p-4 g-3 items-center self-stretch rounded-lg border-solid bg-black ">
                 <h1 className="avialabl-Language text-lg font-medium text-white Language-div py-3  px-12 sm:rounded-md gap-1 -  flex " >  Rishab Shetty</h1>
-                <p className="px-12"  >From India</p>
+                <p className="px-12 text-gray-500"  >From India</p>
 
               </div>
             </div>
@@ -239,12 +239,12 @@ function Movies() {
             {/* MUSIC PAGE */}
 
             <div className="Director-Apiabout ">
-              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3  px-12 sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
-                <h1>Music</h1>
+              <div className="h1-niki avialabl-Language text-lg font-medium text-gray-500 Language-div py-3   sm:rounded-md gap-1 - bg-gray-800 flex items-flex-start items-center">
+                <h1 className=" mr-20">Music</h1>
               </div>
-              <div className="Rishabshetty border p-4 g-3 items-center self-stretch rounded-lg border-solid bg-black ">
-                <h1 className="avialabl-Language text-lg font-medium text-white Language-div py-3  px-12 sm:rounded-md gap-1 -  flex " >  B. Ajaneesh Loknath</h1>
-                <p className="px-12"  >From India</p>
+              <div className="Rishabshetty border p-4 g-3 items-center self-stretch rounded-lg border-solid bg-black  ">
+                <h1 className="avialabl-Language text-lg font-medium text-white Language-div py-3  px-12 gap-1 items-center ext-lg sm:rounded-3xl  items-flex-start justify-start justify-self-stretch flex-wrap " >  B. Ajaneesh Loknath</h1>
+                <p className="px-12 text-gray-500"  >From India</p>
 
               </div>
             </div>
